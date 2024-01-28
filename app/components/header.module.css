@@ -1,7 +1,26 @@
-.menu {
+.header {
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   top: 2vh;
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu li {
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
 }
