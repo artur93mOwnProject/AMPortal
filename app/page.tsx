@@ -1,19 +1,11 @@
-import Link from "next/link";
+import classes from "./page.module.css";
+import Header from "./components/header";
 
 export default function Home() {
   return (
-    <main>
-      <ul>
-        <li>
-          <Link href={"/about"}>AboutMe</Link>
-        </li>
-        <li>
-          <Link href={"/portfolio"}>Portfolio</Link>
-        </li>
-        <li>
-          <Link href={"/contact"}>Contact</Link>
-        </li>
-      </ul>
-    </main>
+    <>
+      <Header />
+      <main className={classes.main}></main>
+    </>
   );
 }

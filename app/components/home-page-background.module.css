@@ -1,0 +1,17 @@
+.upper {
+  height: 70%;
+  background: url("../../public/homepage-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.upperShadow {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.lower {
+  height: 30%;
+  background: #e2e3e7; /* Kolor tła dla dolnej połowy */
+}
